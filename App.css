@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f6f9;
+}
+
+/* LOGIN */
+.login-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container input {
+  padding: 10px;
+  margin: 5px;
+  width: 220px;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  background: #2e86de;
+  color: white;
+  border: none;
+}
+
+/* LAYOUT */
+.app-layout {
+  display: flex;
+  height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 220px;
+  background: #2e86de;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebar .active {
+  background: #1b4f72;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 10px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* CLASS BOX */
+.class-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.class-box {
+  background: #eee;
+  padding: 10px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.class-box.selected {
+  border: 2px solid #2e86de;
+}
+
+/* CHAT */
+.chat {
+  height: 150px;
+  overflow-y: auto;
+  background: #fafafa;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* ROW */
+.row {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.row input {
+  flex: 1;
+  padding: 8px;
+}
+
+.row button {
+  background: #2e86de;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+}
